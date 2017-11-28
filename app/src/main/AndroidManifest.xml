@@ -20,8 +20,10 @@
             android:name=".AcercaDeActivity"
             android:label="@string/Acercade"
             android:theme="@android:style/Theme.Dialog"/>
-
-
+        <activity
+            android:name=".PreferenciasActivity"
+            android:label="@string/Configurar"
+            android:theme="@android:style/Theme.Dialog"/>
     </application>
 
 </manifest>

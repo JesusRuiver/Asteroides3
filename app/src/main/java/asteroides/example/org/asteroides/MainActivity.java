@@ -38,6 +38,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void lanzarPreferencias(View view){
+        Intent i = new Intent(this, PreferenciasActivity.class);
+        startActivity(i);
+    }
+
     @Override public boolean onCreateOptionsMenu (Menu menu){
         getMenuInflater().inflate(R.menu.menu_main,menu);
         return true; /** true -> el menu ya esta visible */
@@ -46,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
     @Override public boolean onOptionsItemSelected (MenuItem item){
         int id = item.getItemId();
         if(id == R.id.action_settings){
+            lanzarPreferencias(null);
             return true;
         }
         if (id == R.id.acercaDe){
