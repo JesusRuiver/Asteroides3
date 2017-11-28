@@ -10,5 +10,15 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+    <string-array name="tiposConexion">
+        <item>Bluethooth</item>
+        <item>WI-FI</item>
+        <item>Internes</item>
+    </string-array>
+    <string-array name="conexionValores">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 
 </resources>
